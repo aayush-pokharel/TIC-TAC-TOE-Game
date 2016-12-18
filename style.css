@@ -1,0 +1,83 @@
+.header_1 {
+	color:maroon;
+	font-family:verdana;
+	font-size:300%;
+	text-align:center;
+}
+.container {
+	padding:15px;
+	position:relative;
+	max-width:1050px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.bg-container{
+	border:1px solid #cecece;
+	background-color:#fff;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#Box {
+	margin-top:0px;
+	margin-left:auto;
+	margin-right:auto;
+	box-sizing:border-box;
+}
+#message {
+	position:relative;
+	margin-top:20px;
+	text-align:center;
+}
+#game {
+	width:219px;
+	height:180px;
+	
+	margin:auto;
+	padding:20px;
+	position:relative;
+	background:linear-gradient(#9dd2ea, #8bceec);
+	border-radius:10px;
+}
+
+#grid {
+	overflow:hidden;
+}
+#grid span{
+	float:left;
+	width:66px;
+	height:40px;
+	background:white;
+	border-radius:3px;
+	margin:auto 7px 11px auto;
+	line-height:40px;
+	font-family:verdana;
+	font-size: 20;
+	font-weight:bold;
+	text-align:center;
+}
+#grid button {
+	text-align:center;
+	width:120px;
+	height:40px;
+	background:white;
+	border-radius:3px;
+	margin:auto 7px 11px auto;
+	line-height:40px;
+	font-family:verdana;
+	font-size: 20;
+	font-weight:bold;
+	text-align:center;
+	color:red;
+	float:left;
+}
+
+
+body {
+	margin:0;
+	padding:0;
+	background-color:#ededed;
+}
